@@ -1,0 +1,133 @@
+{
+  "project": "Meest Post",
+  "competitors": [
+    {
+      "name": "Nova Post",
+      "priority": 1,
+      "sources": [
+        {
+          "url": "https://novapost.com/pl-pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://novapost.com/pl-pl/promotions/",
+          "category": "Promocje"
+        }
+      ]
+    },
+    {
+      "name": "epaka.pl",
+      "priority": 1,
+      "sources": [
+        {
+          "url": "https://www.epaka.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://www.epaka.pl/promocje",
+          "category": "Promocje"
+        },
+        {
+          "url": "https://www.epaka.pl/blog-kurierski/",
+          "category": "Blog"
+        }
+      ]
+    },
+    {
+      "name": "Furgonetka.pl",
+      "priority": 1,
+      "sources": [
+        {
+          "url": "https://furgonetka.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://furgonetka.pl/blog/",
+          "category": "Blog"
+        },
+        {
+          "url": "https://furgonetka.pl/blog/kategoria/aktualnosci/",
+          "category": "Blog"
+        }
+      ]
+    },
+    {
+      "name": "GlobKurier",
+      "priority": 1,
+      "sources": [
+        {
+          "url": "https://www.globkurier.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://www.globkurier.pl/kupony-i-promocje",
+          "category": "Promocje"
+        },
+        {
+          "url": "https://www.globkurier.pl/blog",
+          "category": "Blog"
+        }
+      ]
+    },
+    {
+      "name": "Przesyłarka.pl",
+      "priority": 2,
+      "sources": [
+        {
+          "url": "https://przesylarka.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://przesylarka.pl/blog",
+          "category": "Blog"
+        }
+      ]
+    },
+    {
+      "name": "Poczta Polska",
+      "priority": 2,
+      "sources": [
+        {
+          "url": "https://www.poczta-polska.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://media.poczta-polska.pl/releases",
+          "category": "Inne"
+        }
+      ]
+    },
+    {
+      "name": "Apaczka",
+      "priority": 2,
+      "sources": [
+        {
+          "url": "https://www.apaczka.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://www.apaczka.pl/blog/",
+          "category": "Blog"
+        }
+      ]
+    },
+    {
+      "name": "Sendit",
+      "priority": 2,
+      "sources": [
+        {
+          "url": "https://www.sendit.pl/",
+          "category": "Inne"
+        },
+        {
+          "url": "https://www.sendit.pl/aktualnosci",
+          "category": "Inne"
+        },
+        {
+          "url": "https://www.sendit.pl/blog",
+          "category": "Blog"
+        }
+      ]
+    }
+  ]
+}
