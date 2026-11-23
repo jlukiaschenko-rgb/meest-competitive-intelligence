@@ -1,0 +1,82 @@
+{
+  "project": "Meest Post",
+  "version": 1,
+  "status": "planned_not_executing",
+  "note": "Role definitions for future AI orchestration. Existing Python collector does not execute these agents.",
+  "agents": [
+    {
+      "id": "market-researcher",
+      "name": "Market Researcher",
+      "type": "custom",
+      "responsibility": "Wyszukuje promocje, nowe artykuły, usługi i działania ośmiu konkurentów.",
+      "inputs": [
+        "public_sources",
+        "crawl_results"
+      ],
+      "outputs": [
+        "new_events",
+        "source_evidence"
+      ]
+    },
+    {
+      "id": "marketing-strategist",
+      "name": "Marketing Strategist",
+      "type": "custom",
+      "responsibility": "Analizuje kampanie, komunikaty reklamowe, grupy docelowe i pozycjonowanie.",
+      "inputs": [
+        "verified_events"
+      ],
+      "outputs": [
+        "campaign_assessment",
+        "audience_insights"
+      ]
+    },
+    {
+      "id": "analytics-reporter",
+      "name": "Analytics Reporter",
+      "type": "agency-agents-inspired",
+      "upstream": "https://github.com/msitarzewski/agency-agents/blob/main/support/support-analytics-reporter.md",
+      "responsibility": "Porównuje dane historyczne, ustala priorytety i przygotowuje raporty.",
+      "inputs": [
+        "events",
+        "history"
+      ],
+      "outputs": [
+        "daily_report",
+        "priority_scores"
+      ]
+    },
+    {
+      "id": "growth-strategist",
+      "name": "Growth Strategist",
+      "type": "custom",
+      "responsibility": "Przygotowuje propozycje reakcji marketingowych, testów i eksperymentów.",
+      "inputs": [
+        "verified_events",
+        "campaign_assessment",
+        "trend_insights"
+      ],
+      "outputs": [
+        "recommendations",
+        "experiments"
+      ]
+    },
+    {
+      "id": "trend-researcher",
+      "name": "Trend Researcher",
+      "type": "agency-agents",
+      "upstream": "https://github.com/msitarzewski/agency-agents/blob/main/product/product-trend-researcher.md",
+      "responsibility": "Identyfikuje powtarzające się wzorce, wczesne trendy i możliwości rynkowe poza pojedynczymi publikacjami.",
+      "inputs": [
+        "events",
+        "history",
+        "industry_sources"
+      ],
+      "outputs": [
+        "trend_insights",
+        "weak_signals",
+        "opportunities"
+      ]
+    }
+  ]
+}
