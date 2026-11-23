@@ -1,0 +1,23 @@
+/* Competitor campaign research — light-first UI */
+.campaign-section{margin:0 0 22px}
+.campaign-section .campaign-intro{margin:0 0 17px;color:#536784;line-height:1.7;font-size:14px}
+.campaign-channels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin-bottom:17px}
+.campaign-source{display:block;padding:16px;border:1px solid #d8e4f2;border-radius:15px;background:#f8fbff;color:#153355;text-decoration:none;transition:transform .2s,border-color .2s}
+.campaign-source:hover{transform:translateY(-2px);border-color:#89b5f5;text-decoration:none}
+.campaign-source strong{display:block;font-size:14px;margin-bottom:6px;color:#18345b}
+.campaign-source span{display:block;font-size:12px;color:#58718d;line-height:1.5}
+.campaign-filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0 16px}
+.campaign-filters select{max-width:260px;background:#fff;color:#1e3756;border:1px solid #cddbed;border-radius:12px;padding:10px 12px}
+.campaign-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.campaign-card{border:1px solid #dbe5f1;background:#fff;border-radius:16px;padding:17px;min-width:0}
+.campaign-card h3{font-size:16px;line-height:1.4;margin:10px 0 9px;color:#1c3555}
+.campaign-card p{color:#516984;font-size:13px;line-height:1.7;margin:8px 0}
+.campaign-card .campaign-meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.campaign-label{background:#eef5ff;border:1px solid #c7dcf8;color:#235eac;border-radius:99px;font-size:11px;font-weight:700;padding:6px 9px}
+.campaign-label.verified{background:#eaf9f0;color:#20754a;border-color:#bde8d1}
+.campaign-note{background:#fff7e7;border:1px solid #f0ddb3;border-radius:14px;color:#79551c;padding:13px 15px;margin-top:15px;font-size:12px;line-height:1.65}
+.campaign-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+.campaign-links a{font-size:12px;font-weight:750;color:#1b61c4}
+.campaign-empty{border:1px dashed #b9ccdf;border-radius:13px;padding:24px;background:#f9fbfe;text-align:center;color:#59708a}
+.campaign-footer{font-size:12px;color:#60728d;margin-top:14px}
+@media(max-width:950px){.campaign-channels{grid-template-columns:1fr}.campaign-list{grid-template-columns:1fr}}
