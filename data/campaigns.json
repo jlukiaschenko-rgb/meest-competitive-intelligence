@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-11-23",
+  "market": "PL",
+  "title": "Przegląd kampanii i komunikacji konkurentów",
+  "disclosure": "Status 'potwierdzona na stronie' oznacza, że oficjalna strona dokumentuje akcję. Nie potwierdza emisji płatnych reklam w Meta ani Google. Wyniki bibliotek reklam są dynamiczne i wymagają indywidualnej weryfikacji.",
+  "campaigns": [
+    {
+      "id": "nova-referral-2026",
+      "competitor": "Nova Post",
+      "title": "Zaproś znajomych i odbierz darmową przesyłkę",
+      "type": "program poleceń",
+      "channel": "Strona WWW",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "wysoki",
+      "valid_until": "2026-12-31",
+      "description": "Obie osoby mogą otrzymać kod promocyjny na kolejną przesyłkę po pierwszej wysyłce zaproszonego znajomego. Regulamin podaje przedłużenie programu do końca 2026 r.",
+      "insight": "Pozyskiwanie klientów przez rekomendacje i zachęty do ponownego nadania przesyłki.",
+      "source_url": "https://novapost.com/pl-pl/more/referral-program/",
+      "ad_verification": "niezweryfikowane"
+    },
+    {
+      "id": "poczta-santa-2026",
+      "competitor": "Poczta Polska",
+      "title": "Pocztowe Przygody — List do Świętego Mikołaja",
+      "type": "kampania wizerunkowa i edukacyjna",
+      "channel": "PR i strona WWW",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "sredni",
+      "valid_until": "2026-12-11",
+      "description": "Świąteczna akcja dla szkół i przedszkoli z konkursem; zgłoszenia do 27 listopada i nadanie paczki do 11 grudnia 2026 r.",
+      "insight": "Sezonowy storytelling i obecność marki w wydarzeniach społecznych, nie jest to promocja ceny usług kurierskich.",
+      "source_url": "https://www.poczta-polska.pl/foundation_news/listy-do-swietego-mikolaja-znow-wyrusza-do-laponii-zapraszamy-szkoly-i-przedszkola-do-udzialu/",
+      "ad_verification": "niezweryfikowane"
+    },
+    {
+      "id": "poczta-november-store-2026",
+      "competitor": "Poczta Polska",
+      "title": "Listopadowe promocje w sklepie Poczty Polskiej",
+      "type": "promocja e-commerce",
+      "channel": "Strona WWW / sklep",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "niski",
+      "valid_until": null,
+      "description": "Sklep Poczty Polskiej prezentuje sezonowe obniżki w kategoriach produktów. Nie należy mylić z promocją na przesyłki lub Pocztex.",
+      "insight": "Okresowe promocje sklepowe i Black Week. Pośrednia konkurencja o uwagę klienta, nie dowód zmian cen kuriera.",
+      "source_url": "https://sklep.poczta-polska.pl/listopadowe-promocje",
+      "ad_verification": "niezweryfikowane"
+    },
+    {
+      "id": "furgonetka-partner-2026",
+      "competitor": "Furgonetka.pl",
+      "title": "Program partnerski — Zarabiaj z Furgonetka.pl",
+      "type": "program partnerski",
+      "channel": "Strona WWW",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "sredni",
+      "valid_until": null,
+      "description": "Publicznie dostępny program współpracy partnerskiej służący promocji i zwiększaniu sprzedaży usług Furgonetka.pl. Brak potwierdzonej nowej daty uruchomienia.",
+      "insight": "Budowanie dystrybucji usług przez partnerów.",
+      "source_url": "https://furgonetka.pl/program/?lang=pl_PL",
+      "ad_verification": "niezweryfikowane"
+    },
+    {
+      "id": "epaka-business-partners-2026",
+      "competitor": "epaka.pl",
+      "title": "Zarabiaj z nami — oferta dla firm",
+      "type": "oferta partnerska",
+      "channel": "Strona WWW",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "sredni",
+      "valid_until": null,
+      "description": "Na oficjalnej stronie promocji epaka.pl dostępna jest oferta współpracy biznesowej 'Zarabiaj z nami'. Nie potwierdzono, że akcja jest nowa.",
+      "insight": "Pozyskiwanie partnerów biznesowych jako stały element komunikacji.",
+      "source_url": "https://www.epaka.pl/promocje",
+      "ad_verification": "niezweryfikowane"
+    }
+  ],
+  "unverified_competitors": [
+    "GlobKurier",
+    "Przesyłarka.pl",
+    "Apaczka",
+    "Sendit"
+  ],
+  "library_sources": {
+    "meta": "https://www.facebook.com/ads/library/",
+    "google_ads": "https://adstransparency.google.com/",
+    "google_trends": "https://trends.google.com/trends/explore"
+  },
+  "trend_topics": [
+    "Nova Post",
+    "epaka",
+    "Furgonetka",
+    "GlobKurier",
+    "Przesyłarka",
+    "Poczta Polska",
+    "Apaczka",
+    "Sendit",
+    "przesyłki kurierskie"
+  ]
+}
