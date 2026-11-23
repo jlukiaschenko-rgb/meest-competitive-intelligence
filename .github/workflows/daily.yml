@@ -10,6 +10,9 @@ on:
       - 'config/**'
       - 'index.html'
       - 'modern.css'
+      - 'campaigns.css'
+      - 'campaigns.js'
+      - 'data/campaigns.json'
       - 'data/daily_reports.json'
       - 'data/analysis.json'
   schedule:
