@@ -9,6 +9,7 @@ on:
       - 'scripts/**'
       - 'config/**'
       - 'index.html'
+      - 'modern.css'
       - 'data/daily_reports.json'
       - 'data/analysis.json'
   schedule:
