@@ -1,0 +1,68 @@
+[
+  {
+    "id": "2026-11-23-baseline",
+    "date": "2026-11-23",
+    "generated_at": "2026-11-23T21:00:00+01:00",
+    "kind": "baseline",
+    "title": "Pierwsza analiza rynku — stan bazowy",
+    "status": "historical_context",
+    "verification": "mixed",
+    "source_report": "reports/2026-11-23-first-analysis.md",
+    "summary": "Trzy skany 20 źródeł nie wykryły nowych linków. W analizie bazowej odnotowano wcześniejsze działania firm; brak potwierdzenia nowych kampanii z ostatnich 24 godzin.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 0
+    },
+    "role_insights": {
+      "market-researcher": [
+        "W bazie źródeł odnotowano publiczne materiały zastane Nova Post, Sendit, Furgonetki i GlobKuriera. Nie są to potwierdzone nowości z ostatniej doby."
+      ],
+      "marketing-strategist": [
+        "Program poleceń Nova Post stanowi przykład komunikacji nastawionej na rekomendacje. Brak danych o wynikach i budżecie kampanii."
+      ],
+      "trend-researcher": [
+        "Rozwój funkcji e-commerce oraz zachęt do poleceń to hipotezy do obserwacji; nie potwierdzono jeszcze trendu."
+      ],
+      "analytics-reporter": [
+        "20/20 stron pobranych w ostatnim zapisanym skanie; 0 nowych linków. Brak linków nie oznacza braku zmian cen i reklam."
+      ],
+      "growth-strategist": [
+        "Porównać program poleceń Nova Post z ofertą Meest Post; przez 14 dni zbierać porównywalne ceny i promocje; rozważyć rozszerzenie monitoringu treści stron."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "Nova Post",
+        "category": "Promocje",
+        "title": "Program poleceń (informacja zastana)",
+        "priority": "medium",
+        "status": "historical_context",
+        "summary": "Program poleceń z datą zakończenia 31.12.2026; brak dowodu, że uruchomiono go 23 listopada.",
+        "url": "https://novapost.com/pl-pl/more/referral-program/"
+      },
+      {
+        "competitor": "Sendit",
+        "category": "Produkty i usługi",
+        "title": "Aktualizacja cenników (informacja zastana)",
+        "priority": "low",
+        "status": "historical_context",
+        "summary": "Komunikowana zmiana cen FedEx i Ambro Express od 1 listopada 2026.",
+        "url": "https://www.sendit.pl/aktualnosci"
+      },
+      {
+        "competitor": "Furgonetka.pl",
+        "category": "Produkty i usługi",
+        "title": "Aktualizacje platformy (informacja zastana)",
+        "priority": "low",
+        "status": "historical_context",
+        "summary": "Październikowe zmiany produktowe, nie są nową publikacją z 23 listopada.",
+        "url": "https://furgonetka.pl/blog/pazdziernikowy-przeglad-zmian/"
+      }
+    ],
+    "limitations": [
+      "Źródła reklam i social media nie były monitorowane automatycznie.",
+      "Wykrywanie nowych linków nie potwierdza daty uruchomienia promocji ani zmian treści istniejących stron."
+    ]
+  }
+]
