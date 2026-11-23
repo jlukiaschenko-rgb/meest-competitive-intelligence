@@ -32,13 +32,7 @@ jobs:
           python-version: '3.12'
       - name: Monitor competitors
         run: python scripts/scan.py
-      - name: Run five-agent analysis when API key is configured
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4.1-mini
-          MAX_AI_EVENTS: '12'
-        run: python scripts/analyze.py
-      - name: Save history and AI reports
+      - name: Save scan history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
