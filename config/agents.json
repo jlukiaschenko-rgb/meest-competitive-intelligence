@@ -1,8 +1,8 @@
 {
   "project": "Meest Post",
   "version": 1,
-  "status": "planned_not_executing",
-  "note": "Role definitions for future AI orchestration. Existing Python collector does not execute these agents.",
+  "status": "scheduled_chatgpt_analysis_not_yet_tested",
+  "note": "Five analytic roles are invoked conceptually by a scheduled ChatGPT task using connected GitHub, not by GitHub Actions or an OpenAI API key. Automatic GitHub writeback from scheduled task is not yet validated.",
   "agents": [
     {
       "id": "market-researcher",
