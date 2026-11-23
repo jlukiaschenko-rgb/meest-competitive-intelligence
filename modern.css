@@ -75,3 +75,55 @@ button{border-radius:12px}
 @media(max-width:1180px){.app{grid-template-columns:1fr}.sidebar{height:auto;position:static;padding:18px 24px;display:flex;align-items:center;gap:16px;justify-content:space-between}.sidebar .sub,.asidefoot{display:none}.navitem{margin:0}.main{padding:26px}}
 @media(max-width:850px){.hero-intro{grid-template-columns:1fr}.columns{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:590px){.main{padding:16px}.sidebar{padding:15px}.brand{font-size:14px}.navitem{display:none}.hero-primary,.hero-help{padding:20px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.metrics>.panel{padding:15px}.metrics .number{font-size:26px}.metrics .metric-label{font-size:11px}.panel{padding:18px}.title{font-size:28px}.top{align-items:flex-start}.controls>*{width:100%}#ai-report-content>.sectiontitle{font-size:21px}}
+
+/* LIGHT THEME — Meest Intelligence */
+:root{color-scheme:light;--ink:#15253e;--muted:#536784;--line:#dbe5f2;--electric:#2468dd;--panel:#ffffff;--navy:#f5f8fd;color:#15253e;background:#f5f8fd}
+body{color:#15253e;background:radial-gradient(ellipse at 80% -15%,#dceaff 0,transparent 40%),linear-gradient(140deg,#f8fbff,#eef3fa 75%,#f7faff)}
+a{color:#195ec4}
+.sidebar{background:#ffffff;border-right:1px solid #dbe4ef;box-shadow:3px 0 24px #19365c08}
+.brand{color:#162944}
+.sub,.asidefoot,.note,.mini,.foot{color:#60728d}
+.navitem{background:#eaf2ff;color:#1d55a6;border-color:#cde0fc}
+.eyebrow,.section-kicker{color:#2362c4}
+.title,.sectiontitle,.event h3,.company strong,.hero-help strong{color:#16263f}
+.muted{color:#60728d}
+.status{background:#e9f9f0;border-color:#a7e5c7;color:#196944;box-shadow:0 0 0 4px #e1f7eb}
+.dot{background:#22ad73}
+.panel{background:linear-gradient(175deg,#ffffff,#fbfdff);border-color:#dbe5f2;box-shadow:0 12px 32px #20436d0a}
+.panel:hover{border-color:#afcaea}
+.metric-label{color:#536784}
+.number{color:#162944}
+select,input{background:#ffffff;color:#162944;border-color:#cbd8ea}
+select:focus,input:focus{border-color:#3a7be3;box-shadow:0 0 0 3px #2870dd20}
+select option{background:#ffffff;color:#162944}
+.event{background:#f8fbff;border-color:#e1e9f4}
+.event:first-child{border-top-color:#e1e9f4}
+.event p,.legend,.historyrow span,.company span{color:#536784}
+.event a{color:#195ec4}
+.pill{background:#e9f1fd;border-color:#cfdff5;color:#285183}
+.pill.high{background:#fff0f3;border-color:#f9c8d2;color:#a62e52}
+.pill.medium{background:#fff6e7;border-color:#f6deab;color:#865b14}
+.pill.low{background:#eaf4ff;border-color:#c3ddf9;color:#245b9a}
+.empty{background:#f8fbff;border-color:#cad9ec;color:#526c8d}
+.tag{background:#eff5fc;border-color:#d0deee;color:#395a7e}
+.banner{background:#eff6ff;border-color:#c9ddf8;color:#435d7d}
+#ai-report-panel{background:linear-gradient(145deg,#ffffff,#f1f7ff 100%)!important;border-color:#c6d9f5}
+#ai-report-panel:before{background:#81afff18}
+#ai-report-content{color:#253b56}
+#ai-report-content>.muted{color:#445c7a}
+#ai-report-content>.event{background:#ffffff}
+#ai-report-status{background:#e4efff;border-color:#bad2f5;color:#255b9f}
+.hero-primary{background:radial-gradient(circle at 95% -25%,#d0e3ff 0,transparent 52%),linear-gradient(135deg,#ffffff,#eef5ff);border-color:#c8dbf4;box-shadow:0 16px 36px #20436d0b}
+.hero-primary h2{color:#152943}
+.hero-primary p{color:#455e7e}
+.hero-primary .eyebrow{color:#2765c1}
+.hero-link{background:#286cdb;color:#ffffff}
+.hero-link:hover{background:#1b54b4;color:#ffffff}
+.hero-help{background:linear-gradient(145deg,#ffffff,#f5f9ff);border-color:#dbe5f2}
+.hero-help h3{color:#162944}
+.hero-help p{color:#506886}
+#ai-report-content .event .pill{color:#285183}
+.company{border-bottom-color:#e2eaf4}
+.historyrow{border-top-color:#e2eaf4}
+.foot{border-top-color:#e2eaf4}
+.skip-link{background:#ffffff;color:#152943}
