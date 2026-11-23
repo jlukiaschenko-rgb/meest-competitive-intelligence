@@ -1,6 +1,13 @@
 name: Daily competitive scan and Pages
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily.yml'
+      - 'scripts/**'
+      - 'config/**'
+      - 'index.html'
   schedule:
     - cron: '12 6 * * *'
 permissions:
@@ -13,6 +20,9 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,7 +32,13 @@ jobs:
           python-version: '3.12'
       - name: Monitor competitors
         run: python scripts/scan.py
-      - name: Save scan history
+      - name: Run five-agent analysis when API key is configured
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+          MAX_AI_EVENTS: '12'
+        run: python scripts/analyze.py
+      - name: Save history and AI reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -37,6 +53,3 @@ jobs:
           path: '.'
       - uses: actions/deploy-pages@v4
         id: deployment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
