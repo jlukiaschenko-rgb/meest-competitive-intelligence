@@ -1,4 +1,5 @@
 name: Daily competitive scan and Pages
+# Fresh workflow run avoids duplicate artifacts from re-runs.
 on:
   workflow_dispatch:
   push:
