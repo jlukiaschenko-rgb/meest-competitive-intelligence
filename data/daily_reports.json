@@ -64,5 +64,69 @@
       "Źródła reklam i social media nie były monitorowane automatycznie.",
       "Wykrywanie nowych linków nie potwierdza daty uruchomienia promocji ani zmian treści istniejących stron."
     ]
+  },
+  {
+    "id": "2026-11-24-daily",
+    "date": "2026-11-24",
+    "generated_at": "2026-11-24T09:06:05+01:00",
+    "kind": "daily",
+    "title": "Monitoring konkurencji — brak potwierdzonych zmian z ostatnich 24 godzin",
+    "status": "no_confirmed_updates",
+    "verification": "limited",
+    "summary": "W ostatnim skanie GitHub (24.11.2026 08:21 czasu polskiego) sprawdzono 20 z 20 źródeł, bez błędów i bez nowych linków. Dodatkowy przegląd publicznych stron i wyszukiwanie publikacji z ostatniej doby nie dostarczyły wiarygodnie datowanego nowego sygnału dla ośmiu konkurentów. Istniejące programy i akcje marketingowe są kontekstem historycznym, nie nowymi kampaniami. Niezweryfikowano emisji płatnej reklamy w Meta i Google.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 0
+    },
+    "role_insights": {
+      "market-researcher": [
+        "Ostatni zapisany skan 24.11.2026 o 07:21:43 UTC: 20 poprawnie pobranych źródeł, 0 błędów, 0 nowych linków; data/events.json pozostaje pusta.",
+        "Dodatkowa weryfikacja oficjalnych stron nie wykazała publikacji o potwierdzonej dacie 23–24 listopada 2026. Program poleceń Nova Post jest dostępny, ale nie został uruchomiony w tym oknie czasowym; świąteczna akcja Poczty Polskiej ma datę publikacji 20.11.2026."
+      ],
+      "marketing-strategist": [
+        "Nova Post nadal komunikuje program poleceń (do 31.12.2026), a Poczta Polska świąteczną akcję edukacyjną (zgłoszenia do 27.11.2026); to działania zastane, nie nowe kampanie z ostatniej doby.",
+        "Meta Ads Library nie udostępniła danych w tej sesji (HTTP 403); Google Ads Transparency Center nie ujawniło wyników reklamodawców w dostępnej wersji strony. Niezweryfikowano emisji płatnej reklamy ani kreacji, zasięgu i budżetu."
+      ],
+      "trend-researcher": [
+        "Programy poleceń, programy partnerskie i komunikacja sezonowa są hipotezami kierunków komunikacji, nie potwierdzonym trendem z 24 godzin.",
+        "Google Trends zwróciło ograniczenie dostępu (HTTP 429); nie ma podstaw do stwierdzenia wzrostu lub spadku zainteresowania markami."
+      ],
+      "analytics-reporter": [
+        "W historii cztery skany (trzy 23.11 i jeden 24.11); wszystkie miały 20/20 poprawnych źródeł i 0 nowych linków. Brak przyrostu względem wcześniejszego stanu bazowego.",
+        "Priorytet alertów na dziś: brak potwierdzonych nowych zmian. Brak nowego linku nie wyklucza aktualizacji istniejącej oferty ani kampanii płatnej."
+      ],
+      "growth-strategist": [
+        "Przygotować mały test komunikatu poleceń dla Meest Post z kontrolą kosztu pozyskania i liczby pierwszych oraz ponownych nadań, bez przypisywania wyników konkurentowi.",
+        "Przez 14 dni prowadzić dziennik cen dla wybranych relacji i wag oraz porównywać pełną treść stron, nie tylko nowe adresy URL.",
+        "Dodać ręczną kontrolę aktywnych kreacji Meta/Google z datą, zrzutem i identyfikatorem reklamy, gdy biblioteki będą dostępne."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "Nova Post",
+        "category": "Promocje",
+        "title": "Program poleceń — kontekst, nie nowość",
+        "priority": "medium",
+        "status": "historical_context",
+        "summary": "Oficjalna strona potwierdza program z darmową kolejną przesyłką i datą obowiązywania do 31.12.2026; brak dowodu uruchomienia 23–24 listopada.",
+        "url": "https://novapost.com/pl-pl/more/referral-program/"
+      },
+      {
+        "competitor": "Poczta Polska",
+        "category": "Kampanie",
+        "title": "Pocztowe Przygody — świąteczna akcja z 20 listopada",
+        "priority": "low",
+        "status": "historical_context",
+        "summary": "Akcja edukacyjna opublikowana 20.11.2026; zapisy do 27.11, wysyłka paczek do 11.12. Nie jest nowym sygnałem z ostatniej doby ani promocją usług kurierskich.",
+        "url": "https://www.poczta-polska.pl/foundation_news/listy-do-swietego-mikolaja-znow-wyrusza-do-laponii-zapraszamy-szkoly-i-przedszkola-do-udzialu/"
+      }
+    ],
+    "limitations": [
+      "Ostatni skan automatyczny monitoruje nowe linki, nie pełne zmiany treści, ceny, social media i biblioteki reklam.",
+      "Meta Ads Library: HTTP 403; Google Ads Transparency Center: brak dostępnych szczegółów reklamodawców; Google Trends: HTTP 429. Niezweryfikowano emisji płatnej reklamy.",
+      "Wyszukiwanie internetowe i indeksacja stron nie zapewniają kompletności dla wszystkich ośmiu firm w ostatnich 24 godzinach.",
+      "Daty istniejących ofert nie są datami ich pierwszej publikacji; nie traktowano ich jako nowych zdarzeń."
+    ]
   }
 ]
