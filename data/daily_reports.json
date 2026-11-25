@@ -128,5 +128,71 @@
       "Wyszukiwanie internetowe i indeksacja stron nie zapewniają kompletności dla wszystkich ośmiu firm w ostatnich 24 godzinach.",
       "Daty istniejących ofert nie są datami ich pierwszej publikacji; nie traktowano ich jako nowych zdarzeń."
     ]
+  },
+  {
+    "id": "2026-11-25-daily",
+    "date": "2026-11-25",
+    "generated_at": "2026-11-25T09:18:30+01:00",
+    "kind": "daily",
+    "title": "Monitoring konkurencji — nowy artykuł epaka.pl o transporcie paletowym",
+    "status": "verified",
+    "verification": "mixed",
+    "summary": "Skan 25.11 o 08:24 czasu polskiego: 20/20 źródeł, 0 błędów, 9 nowo wykrytych linków epaka.pl. Weryfikacja treści wskazała jeden artykuł datowany 24.11.2026 o DB Schenker i przesyłkach paletowych. Jest to potwierdzona nowa publikacja contentowa, nie potwierdzona nowa usługa, promocja ani płatna kampania. Wpis o Black Friday pochodzi z 22.10.2026; pozostałe wykryte linki to m.in. tagi, autor i strony kategorii. Niezweryfikowano emisji płatnej reklamy.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 9
+    },
+    "role_insights": {
+      "market-researcher": [
+        "GitHub history.json: skan 25.11.2026 07:24:38 UTC pobrał 20 źródeł, 0 błędów i zidentyfikował 9 nowych dla skanera adresów URL, wszystkie z epaka.pl.",
+        "Artykuł epaka.pl „DB Schenker – czym jest firma i jak śledzić przesyłkę paletową?” ma datę publikacji 24 listopada 2026. Nowy materiał poradnikowy, nie dowód nowej usługi ani nowej kampanii płatnej. Źródło: https://www.epaka.pl/blog-kurierski/db-schenker-czym-jest-firma-i-jak-sledzic-przesylke-paletowa/",
+        "Artykuł epaka.pl o przygotowaniu sklepu na Black Friday Week opublikowano 22 października 2026. Wykrycie linku 25.11 nie oznacza publikacji w ostatniej dobie. Źródło: https://www.epaka.pl/blog-kurierski/aktualnosci/jak-przygotowac-swoj-sklep-online-na-black-friday-week/"
+      ],
+      "marketing-strategist": [
+        "Nowy poradnik epaka.pl o DB Schenker wspiera komunikację ekspercką dotyczącą palet i logistyki B2B. Nie wykazano płatnej promocji artykułu.",
+        "Wcześniejszy materiał Black Friday (22.10) pozycjonuje epaka.pl biznes przez integracje e-commerce i sprawną obsługę wysyłek w sezonie wyprzedaży; nie jest nową kampanią z 24 godzin.",
+        "Meta Ads Library zwróciła HTTP 403; Google Ads Transparency Center nie udostępniło wyników dla reklamodawców w dostępnym widoku. Niezweryfikowano emisji płatnej reklamy, kreacji, wydatków ani zasięgów."
+      ],
+      "trend-researcher": [
+        "Treści o paletach i obsłudze sklepów internetowych mogą wskazywać zainteresowanie segmentem B2B, ale pojedynczy nowy artykuł nie dowodzi trwałego trendu.",
+        "Google Trends zwróciło HTTP 429; brak podstaw do wnioskowania o zmianach zainteresowania markami. Google Trends nie jest biblioteką reklam."
+      ],
+      "analytics-reporter": [
+        "Poprzedni skan 24.11: 20/20 źródeł, 0 błędów, 0 linków; skan 25.11: 20/20, 0 błędów, 9 linków. Z 9 linków tylko jeden artykuł potwierdzono jako publikację z 24.11; nie należy interpretować wszystkich dziewięciu jako nowych kampanii.",
+        "Priorytet średni: nowy artykuł epaka.pl o paletach (content B2B). Priorytet niski: wcześniejszy materiał Black Friday. Nie potwierdzono nowej promocji cenowej pozostałych siedmiu marek."
+      ],
+      "growth-strategist": [
+        "Przetestować poradnik lub landing page Meest Post dla wysyłek B2B i większych gabarytów, mierząc ruch organiczny, zapytania ofertowe i konwersje; bez założenia, że konkurent uruchomił nową usługę.",
+        "Przed Black Friday (27.11.2026) przetestować komunikaty o prostocie nadania i obsłudze szczytu zamówień dla sklepów internetowych, mierząc CTR i liczbę nadanych przesyłek.",
+        "Usprawnić skaner: rozpoznawać datę publikacji, odróżniać artykuły od tagów/autorów i porównywać treści istniejących stron."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "epaka.pl",
+        "category": "Blog",
+        "title": "DB Schenker — poradnik o przesyłkach paletowych (24.11.2026)",
+        "priority": "medium",
+        "status": "confirmed_new",
+        "summary": "Artykuł epaka.pl datowany 24 listopada 2026 omawia DB Schenker, transport paletowy i nadawanie palet przez epaka.pl. Potwierdzona nowa publikacja contentowa, nie nowa usługa ani reklama płatna.",
+        "url": "https://www.epaka.pl/blog-kurierski/db-schenker-czym-jest-firma-i-jak-sledzic-przesylke-paletowa/"
+      },
+      {
+        "competitor": "epaka.pl",
+        "category": "Blog",
+        "title": "Black Friday Week — artykuł z 22.10.2026",
+        "priority": "low",
+        "status": "historical_context",
+        "summary": "Wykryty przez skaner 25.11 link prowadzi do materiału opublikowanego 22 października 2026. Nie jest nową publikacją ani potwierdzoną płatną kampanią.",
+        "url": "https://www.epaka.pl/blog-kurierski/aktualnosci/jak-przygotowac-swoj-sklep-online-na-black-friday-week/"
+      }
+    ],
+    "limitations": [
+      "Skaner oznacza nowo znalezione URL, nie datę publikacji; wśród 9 linków są tagi, kategorie i autor. Tylko jeden artykuł ma potwierdzoną datę 24.11.2026.",
+      "Meta Ads Library: HTTP 403; Google Ads Transparency Center: brak dostępnych wyników reklamodawców; Google Trends: HTTP 429. Niezweryfikowano emisji płatnej reklamy.",
+      "Brak pełnego monitoringu zmian treści i cen na istniejących stronach oraz social media; nie można wykluczyć niewykrytych działań pozostałych firm.",
+      "Data publikacji 24.11.2026 nie określa godziny; wpis mieści się w ostatnich dwóch dniach kalendarzowych, ale nie można bezspornie potwierdzić publikacji po 24.11 09:18 czasu polskiego."
+    ]
   }
 ]
