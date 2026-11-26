@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23",
+  "updated_at": "2026-11-26",
   "market": "PL",
   "title": "Przegląd kampanii i komunikacji konkurentów",
   "disclosure": "Status 'potwierdzona na stronie' oznacza, że oficjalna strona dokumentuje akcję. Nie potwierdza emisji płatnych reklam w Meta ani Google. Wyniki bibliotek reklam są dynamiczne i wymagają indywidualnej weryfikacji.",
@@ -72,6 +72,20 @@
       "description": "Na oficjalnej stronie promocji epaka.pl dostępna jest oferta współpracy biznesowej 'Zarabiaj z nami'. Nie potwierdzono, że akcja jest nowa.",
       "insight": "Pozyskiwanie partnerów biznesowych jako stały element komunikacji.",
       "source_url": "https://www.epaka.pl/promocje",
+      "ad_verification": "niezweryfikowane"
+    },
+    {
+      "id": "nova-black-friday-2026",
+      "competitor": "Nova Post",
+      "title": "Black Friday — 25% na nadanie z kodem FRIDAY25",
+      "type": "promocja cenowa",
+      "channel": "Strona WWW",
+      "status": "potwierdzona_na_stronie",
+      "relevance": "wysoki",
+      "valid_until": "2026-11-30",
+      "description": "Oficjalna polska strona Nova Post podaje 25% rabatu na jedno nadanie z Polski dokumentów lub paczek do 30 kg z kodem FRIDAY25, do 30 listopada 2026. Data rozpoczęcia nie została potwierdzona.",
+      "insight": "Oferta ograniczona czasowo w szczycie Black Friday; porównać koszt i warunki nadania z ofertą Meest Post.",
+      "source_url": "https://novapost.com/pl-pl/black-friday-2026/",
       "ad_verification": "niezweryfikowane"
     }
   ],
