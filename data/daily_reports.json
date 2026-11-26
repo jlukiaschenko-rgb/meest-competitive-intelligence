@@ -194,5 +194,74 @@
       "Brak pełnego monitoringu zmian treści i cen na istniejących stronach oraz social media; nie można wykluczyć niewykrytych działań pozostałych firm.",
       "Data publikacji 24.11.2026 nie określa godziny; wpis mieści się w ostatnich dwóch dniach kalendarzowych, ale nie można bezspornie potwierdzić publikacji po 24.11 09:18 czasu polskiego."
     ]
+  },
+  {
+    "id": "2026-11-26-daily",
+    "date": "2026-11-26",
+    "generated_at": "2026-11-26T09:49:13+01:00",
+    "kind": "daily",
+    "title": "Furgonetka: listopadowy przegląd zmian; Nova Post: Black Friday −25%",
+    "status": "partial",
+    "verification": "mixed",
+    "summary": "Skan GitHub z 26.11.2026 08:23 czasu polskiego: 20/20 źródeł, 0 błędów i 2 zapisane zdarzenia skanera, oba odnoszące się do tego samego URL Furgonetka.pl (duplikat). Oficjalny blog datuje listopadowy przegląd zmian Furgonetka.pl na 25.11.2026; dokładna godzina publikacji nie jest dostępna, więc nie można bezspornie przypisać jej do ostatnich 24 godzin. Oficjalna strona Nova Post potwierdza aktualną polską promocję Black Friday: −25% na jedno nadanie z kodem FRIDAY25 do 30.11.2026, ale nie podaje daty startu. To ważna bieżąca oferta, nie potwierdzona nowość z ostatniej doby. Niezweryfikowano emisji płatnej reklamy w Meta ani Google.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 2
+    },
+    "role_insights": {
+      "market-researcher": [
+        "History.json: 26.11.2026 07:23:08 UTC, 20 źródeł pobranych, 0 błędów, 2 nowe zdarzenia skanera. Events.json zawiera dwa identyczne rekordy z tym samym identyfikatorem i URL https://furgonetka.pl/blog/listopadowy-przeglad-zmian; to jeden unikalny adres, nie dwa niezależne wydarzenia.",
+        "Furgonetka.pl datuje wpis „Co nowego w Furgonetka.pl? Listopadowy przegląd zmian” na 25.11.2026. Zajawka dotyczy upraszczania wprowadzania adresu i wyboru punktów odbioru; pełna strona artykułu nie była dostępna w narzędziu, więc szczegółowych funkcji nie uznano za potwierdzone.",
+        "Nova Post: oficjalna polska strona promocji potwierdza kod FRIDAY25, rabat 25% na jedno nadanie dokumentów lub paczek do 30 kg z Polski do 30.11.2026. Nie ma wiarygodnej daty uruchomienia w ostatnich 24 godzinach.",
+        "Dla epaka.pl, GlobKuriera, Przesyłarki.pl, Poczty Polskiej, Apaczki i Sendit nie znaleziono dodatkowych wiarygodnie datowanych nowych publikacji w oknie 25.11 09:49–26.11 09:49 czasu polskiego."
+      ],
+      "marketing-strategist": [
+        "Nova Post wykorzystuje krótkoterminowy bodziec cenowy Black Friday (−25%, kod FRIDAY25, ważny do 30.11.2026), istotny bezpośrednio dla konwersji nadawców; brak potwierdzenia, kiedy oferta wystartowała.",
+        "Furgonetka komunikuje ułatwianie procesu nadania i obsługi punktów odbioru; na podstawie zajawki blogowej jest to komunikacja produktowa, a nie dowód nowej płatnej kampanii.",
+        "Meta Ads Library: HTTP 403; Google Ads Transparency Center: w dostępnym widoku brak danych konkretnych reklamodawców. Niezweryfikowano emisji płatnej reklamy, kreacji, wydatków ani zasięgu."
+      ],
+      "trend-researcher": [
+        "Równoległa komunikacja rabatowa Nova Post i produktowa Furgonetki sugeruje dwa kierunki rywalizacji: cena w szczycie sezonu oraz łatwość nadania; to obserwacja jakościowa, nie udowodniony trend rynkowy.",
+        "Google Trends: HTTP 429; nie można rzetelnie określić zmian zainteresowania markami. Google Trends nie jest biblioteką reklam."
+      ],
+      "analytics-reporter": [
+        "25.11: 20/20 źródeł, 9 nowych linków, głównie epaka.pl; 26.11: 20/20, 2 zapisane zdarzenia, lecz tylko jeden unikalny URL Furgonetka.pl. Skaner wykrywa URL, nie daty publikacji ani startu kampanii.",
+        "Priorytet wysoki: aktualna promocja Nova Post −25% (ważna do 30.11). Priorytet średni: publikacja Furgonetka.pl datowana 25.11, dokładna godzina nieznana. Nie traktować dwóch zduplikowanych rekordów jako dwóch zmian.",
+        "Brak potwierdzenia, że którakolwiek z tych akcji została uruchomiona dokładnie w ostatnich 24 godzinach."
+      ],
+      "growth-strategist": [
+        "Przed 27.11 przygotować test ograniczonego czasowo komunikatu wartości Meest Post wobec rabatu Nova Post; mierzyć koszt pozyskania, konwersję do nadania i marżę, bez automatycznego kopiowania obniżki 25%.",
+        "Przeprowadzić audyt UX nadawania Meest Post: liczba pól adresowych, czas nadania, wyszukiwanie punktu i odsetek porzuceń; porównać z komunikacją Furgonetki.",
+        "Poprawić deduplikację data/events.json według URL/id oraz monitorować daty publikacji i zmiany treści stron promocyjnych."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "Nova Post",
+        "category": "Promocje",
+        "title": "Black Friday: −25% na nadanie z kodem FRIDAY25 (do 30.11.2026)",
+        "priority": "high",
+        "status": "historical_context",
+        "summary": "Oficjalna polska strona potwierdza aktualną ofertę: 25% rabatu na jedno nadanie dokumentów lub paczek do 30 kg z Polski, ważną do 30 listopada 2026. Nie podano daty startu, więc nie kwalifikujemy jej jako nowej kampanii z ostatnich 24 godzin.",
+        "url": "https://novapost.com/pl-pl/black-friday-2026/"
+      },
+      {
+        "competitor": "Furgonetka.pl",
+        "category": "Blog",
+        "title": "Listopadowy przegląd zmian — publikacja datowana 25.11.2026",
+        "priority": "medium",
+        "status": "unverified",
+        "summary": "Oficjalny blog datuje artykuł na 25.11.2026. Zajawka opisuje uproszczenia związane z adresami i mapą punktów odbioru. Brak godziny publikacji i dostępu do pełnego artykułu; jeden URL został podwójnie zapisany przez skaner.",
+        "url": "https://furgonetka.pl/blog/listopadowy-przeglad-zmian"
+      }
+    ],
+    "limitations": [
+      "Daty 25.11 i 26.11 nie potwierdzają same w sobie przynależności publikacji do dokładnego ruchomego okna ostatnich 24 godzin; brak godzin publikacji.",
+      "Events.json zawiera podwójny wpis Furgonetka.pl o tym samym id i URL. Liczba new_events=2 jest surowym wynikiem skanera; liczba unikalnych URL wynosi 1.",
+      "Meta Ads Library: HTTP 403. Google Ads Transparency Center nie udostępniło wyników konkretnych reklamodawców. Google Trends: HTTP 429. Niezweryfikowano emisji płatnej reklamy.",
+      "Monitoring 20 źródeł wykrywa głównie nowe linki, a nie wszystkie zmiany treści, cenników i kampanii social media.",
+      "Nova Post: oferta aktywna do 30.11, ale niezweryfikowana data startu. Furgonetka: pełna strona artykułu była niedostępna w użytym narzędziu."
+    ]
   }
 ]
