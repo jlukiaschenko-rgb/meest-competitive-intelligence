@@ -263,5 +263,83 @@
       "Monitoring 20 źródeł wykrywa głównie nowe linki, a nie wszystkie zmiany treści, cenników i kampanii social media.",
       "Nova Post: oferta aktywna do 30.11, ale niezweryfikowana data startu. Furgonetka: pełna strona artykułu była niedostępna w użytym narzędziu."
     ]
+  },
+  {
+    "id": "2026-11-27-daily",
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T09:07:17+01:00",
+    "kind": "daily",
+    "title": "Black Friday: aktywna oferta Nova Post, brak potwierdzonych nowych sygnałów z 24 godzin",
+    "status": "no_confirmed_updates",
+    "verification": "limited",
+    "summary": "Skan 27.11.2026 o 08:23 czasu polskiego: 20/20 źródeł, 0 błędów, 0 nowych linków. Weryfikacja publicznych źródeł nie potwierdziła publikacji ani uruchomienia nowej kampanii w oknie 26.11 09:07–27.11 09:07 czasu polskiego. Nova Post nadal prezentuje promocję Black Friday −25% z kodem FRIDAY25 do 30.11.2026; oferta była już opisana 26.11 i nie jest nowym sygnałem. Furgonetka.pl zaktualizowała 26.11 artykuł opublikowany 25.11, ale bez godziny aktualizacji nie można przypisać zmiany do ostatnich 24 godzin. Niezweryfikowano emisji płatnej reklamy.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 0
+    },
+    "role_insights": {
+      "market-researcher": [
+        "History.json: ostatni skan 27.11.2026 07:23:26 UTC, 20 poprawnie sprawdzonych źródeł, 0 błędów, 0 nowych linków.",
+        "Nova Post: oficjalna promocja FRIDAY25 −25% na jedno nadanie z Polski dokumentów i paczek do 30 kg, do 30.11.2026; kampania znana z poprzedniego raportu. Źródło: https://novapost.com/pl-pl/black-friday-2026/",
+        "Furgonetka: artykuł z 25.11, ostatnia aktualizacja 26.11; brak godziny aktualizacji, więc nie da się potwierdzić nowości w ścisłym oknie 24h. Źródło: https://furgonetka.pl/blog/listopadowy-przeglad-zmian/",
+        "Dla epaka.pl, GlobKuriera, Przesyłarki.pl, Poczty Polskiej, Apaczki i Sendit nie potwierdzono nowych publikacji z badanego okna."
+      ],
+      "marketing-strategist": [
+        "Nova Post nadal komunikuje Black Friday kodem FRIDAY25, a także program poleceń. Są to wcześniej wykryte działania; nie ustalono daty startu w ostatnich 24h.",
+        "Furgonetka opisuje usprawnienia nadawania oraz integracje z TEMU i TikTok Shop; materiał opublikowany 25.11 i zaktualizowany 26.11, nie jest potwierdzoną nową kampanią płatną.",
+        "Meta Ads Library: HTTP 403; Google Ads Transparency Center: dostępna tylko strona startowa bez wyników reklamodawców. Niezweryfikowano emisji płatnej reklamy, kreacji, wydatków ani zasięgów."
+      ],
+      "trend-researcher": [
+        "Hipoteza: w szczycie Black Friday konkurenci rywalizują zarówno ceną (Nova Post), jak i wygodą procesu i integracjami e-commerce (Furgonetka). Nie jest to dowód trendu z ostatnich 24h.",
+        "Google Trends: HTTP 429; brak danych o zmianach zainteresowania markami. Google Trends nie potwierdza emisji reklam."
+      ],
+      "analytics-reporter": [
+        "Skan 26.11: 2 zapisane zdarzenia, lecz jeden zduplikowany URL Furgonetka; skan 27.11: 0 nowych zdarzeń przy 20/20 poprawnych źródłach.",
+        "Brak potwierdzonych nowych sygnałów z ostatnich 24 godzin. Priorytet operacyjny: obserwować kończącą się 30.11 ofertę Nova Post, bez fałszywego alertu o jej uruchomieniu.",
+        "Skaner identyfikuje nowe URL, nie wszystkie aktualizacje treści i kreacje płatne."
+      ],
+      "growth-strategist": [
+        "W dniu Black Friday sprawdzić konkurencyjność całkowitej ceny nadania Meest Post względem kodu FRIDAY25 dla porównywalnych relacji i wag; mierzyć konwersję oraz marżę przed ewentualnym testem rabatu.",
+        "Przeprowadzić audyt formularza nadania i punktów odbioru Meest Post względem rozwiązań opisanych przez Furgonetka.pl; mierzyć ukończenie formularza i czas nadania.",
+        "Dodać do monitoringu wykrywanie aktualizacji istniejących stron, deduplikację URL oraz osobną ręczną kontrolę reklam Meta/Google z datą weryfikacji."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "Nova Post",
+        "category": "Promocje",
+        "title": "Black Friday −25% FRIDAY25 — oferta wcześniej wykryta",
+        "priority": "high",
+        "status": "historical_context",
+        "summary": "Oficjalna oferta obowiązuje do 30.11.2026 na jedno nadanie z Polski do 30 kg; brak dowodu uruchomienia w ostatnich 24 godzinach.",
+        "url": "https://novapost.com/pl-pl/black-friday-2026/"
+      },
+      {
+        "competitor": "Furgonetka.pl",
+        "category": "Blog",
+        "title": "Listopadowy przegląd zmian — aktualizacja z 26.11",
+        "priority": "medium",
+        "status": "historical_context",
+        "summary": "Artykuł opublikowano 25.11 i oznaczono aktualizację 26.11 bez godziny. Opisuje autouzupełnianie adresów, mapę punktów, integracje TEMU i TikTok Shop oraz zwroty Shoper. Nie da się potwierdzić aktualizacji w ścisłym oknie 24 godzin.",
+        "url": "https://furgonetka.pl/blog/listopadowy-przeglad-zmian/"
+      },
+      {
+        "competitor": "Poczta Polska",
+        "category": "Kampanie",
+        "title": "Pocztowe Przygody — termin rejestracji 27.11",
+        "priority": "low",
+        "status": "historical_context",
+        "summary": "Świąteczna akcja ogłoszona 20.11; 27.11 mija termin zgłoszeń placówek. To istniejąca kampania, nie nowa publikacja.",
+        "url": "https://www.poczta-polska.pl/foundation_news/listy-do-swietego-mikolaja-znow-wyrusza-do-laponii-zapraszamy-szkoly-i-przedszkola-do-udzialu/"
+      }
+    ],
+    "limitations": [
+      "20/20 oznacza udane pobranie stron w skanerze GitHub, nie ręczne zweryfikowanie pełnej zawartości 20 źródeł.",
+      "Nie znaleziono wiarygodnie datowanej nowej publikacji z okna 26.11 09:07–27.11 09:07 Europe/Warsaw; brak dowodu nie oznacza braku wszystkich działań.",
+      "Meta Ads Library HTTP 403, Google Ads Transparency Center bez wyników reklamodawców, Google Trends HTTP 429. Niezweryfikowano emisji płatnej reklamy.",
+      "Furgonetka: aktualizacja oznaczona datą 26.11 bez godziny; nie można jej bezspornie zakwalifikować jako nową w ostatnich 24h.",
+      "Nie zmieniono data/events.json, data/history.json ani data/campaigns.json; brak nowych potwierdzonych kampanii do dopisania."
+    ]
   }
 ]
