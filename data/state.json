@@ -596,7 +596,6 @@
     "https://www.globkurier.pl/cennik/przesylki-miedzynarodowe/paczki-i-przesylki-do-rumunii",
     "https://www.globkurier.pl/cennik/przesylki-miedzynarodowe/paczki-i-przesylki-do-usa",
     "https://www.globkurier.pl/cennik/uslugi-transportowe-i-spedycyjne",
-    "https://www.globkurier.pl/ciekawostki/automaty-paczkowe-w-polsce-2026-kto-jest-liderem-rynku",
     "https://www.globkurier.pl/ciekawostki/czy-mozna-sprawdzic-o-ktorej-przyjedzie-kurier",
     "https://www.globkurier.pl/e-commerce/gabaryty-paczkomatow-inpost-wymiary-paczek-a-b-i-c",
     "https://www.globkurier.pl/e-commerce/integracja-sklepu-z-kurierami-automatyzacja",
@@ -848,9 +847,7 @@
     "https://www.poczta-polska.pl/zlec-usluge-online",
     "https://www.poczta-polska.pl/zlec-usluge-online/polecony-do-skrzynki"
   ],
-  "Poczta Polska|https://media.poczta-polska.pl/releases": [
-    "https://media.poczta-polska.pl/releases/poczta-polska-tworzy-nowoczesne-centra-obslugi-gotowki"
-  ],
+  "Poczta Polska|https://media.poczta-polska.pl/releases": [],
   "Apaczka|https://www.apaczka.pl/": [
     "https://www.apaczka.pl/aktualnosci",
     "https://www.apaczka.pl/blog",

@@ -40,5 +40,12 @@
     "failed_sources": 0,
     "new_events": 2,
     "baseline": false
+  },
+  {
+    "checked_at": "2026-11-27T07:23:26+00:00",
+    "successful_sources": 20,
+    "failed_sources": 0,
+    "new_events": 0,
+    "baseline": false
   }
 ]
