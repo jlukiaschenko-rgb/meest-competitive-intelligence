@@ -341,5 +341,72 @@
       "Furgonetka: aktualizacja oznaczona datą 26.11 bez godziny; nie można jej bezspornie zakwalifikować jako nową w ostatnich 24h.",
       "Nie zmieniono data/events.json, data/history.json ani data/campaigns.json; brak nowych potwierdzonych kampanii do dopisania."
     ]
+  },
+  {
+    "id": "2026-11-28-daily",
+    "date": "2026-11-28",
+    "generated_at": "2026-11-28T09:54:25+01:00",
+    "kind": "daily",
+    "title": "epaka.pl: nowy poradnik o nadawaniu bez etykiety; brak potwierdzonej nowej kampanii płatnej",
+    "status": "partial",
+    "verification": "mixed",
+    "summary": "Skan 28.11.2026 o 08:17 czasu polskiego: 20/20 źródeł, 0 błędów, 1 nowy link epaka.pl. Oficjalny poradnik epaka.pl o nadawaniu paczek bez drukowania etykiety jest datowany 27.11.2026; bez godziny publikacji nie można bezspornie potwierdzić, że pojawił się w ruchomym oknie ostatnich 24 godzin. Jest to nowy materiał contentowy względem archiwum skanera, a nie potwierdzona nowa usługa lub płatna kampania. Nova Post nadal prezentuje wcześniej wykrytą promocję FRIDAY25 do 30.11. Niezweryfikowano emisji płatnej reklamy.",
+    "scan": {
+      "checked_sources": 20,
+      "failed_sources": 0,
+      "new_events": 1
+    },
+    "role_insights": {
+      "market-researcher": [
+        "History.json: skan 28.11 o 07:17:14 UTC pobrał 20 źródeł bez błędów i wykrył 1 link epaka.pl: https://www.epaka.pl/blog-kurierski/jak-nadac-paczke-bez-etykiety/",
+        "Artykuł epaka.pl jest datowany 27 listopada 2026; opisuje istniejącą opcję «Nie mam drukarki», bez dowodu uruchomienia nowej funkcji 27–28 listopada. Brak godziny publikacji uniemożliwia ścisłe potwierdzenie ruchomego okna 24 h.",
+        "Pozostałych siedmiu konkurentów nie powiązano z nowym datowanym sygnałem w danych skanera; nie jest to dowód braku ich aktywności."
+      ],
+      "marketing-strategist": [
+        "epaka.pl publikuje treść poradnikową SEO akcentującą łatwość nadawania bez drukarki; nie jest to potwierdzona płatna kampania.",
+        "Nova Post nadal komunikuje wcześniej znany rabat 25% FRIDAY25 do 30.11.2026, bez dowodu nowego startu 28.11.",
+        "Meta Ads Library: HTTP 403; Google Ads Transparency Center: dostępna jedynie strona wejściowa bez wyników reklamodawców. Niezweryfikowano emisji płatnej reklamy."
+      ],
+      "trend-researcher": [
+        "Kolejna treść o wygodzie nadania (po listopadowym przeglądzie Furgonetki) wspiera hipotezę komunikacyjnego nacisku na prostotę procesu, ale nie dowodzi statystycznego trendu.",
+        "Google Trends: HTTP 429; brak danych o zmianach zainteresowania markami. Google Trends nie jest biblioteką reklam."
+      ],
+      "analytics-reporter": [
+        "27.11: 20/20 źródeł, 0 błędów i 0 nowych linków; 28.11: 20/20, 0 błędów i 1 nowy link epaka.pl. Wykrycie URL nie potwierdza godziny publikacji.",
+        "Priorytet średni: poradnik epaka.pl o nadaniu bez etykiety (publikacja datowana 27.11). Priorytet wysoki jako kontekst biznesowy, nie nowość: rabat Nova Post do 30.11.",
+        "Historia skanów pozostaje bez zmian; liczba new_events to wynik skanera, nie liczba nowych kampanii."
+      ],
+      "growth-strategist": [
+        "Przetestować landing i komunikat «Nadaj bez drukarki» wyłącznie dla opcji rzeczywiście dostępnych w Meest Post; mierzyć konwersję do nadania, liczbę porzuceń i zapytań do obsługi.",
+        "Porównać liczbę kroków i czytelność wyboru punktu nadania w procesie Meest Post względem publicznych komunikatów epaka.pl i Furgonetki.",
+        "Monitorować do 30.11 wpływ promocji Nova Post na ofertę rynkową; nie kopiować rabatu bez kalkulacji marży."
+      ]
+    },
+    "signals": [
+      {
+        "competitor": "epaka.pl",
+        "category": "Blog",
+        "title": "Jak nadać paczkę bez drukowania etykiety? — poradnik z 27.11.2026",
+        "priority": "medium",
+        "status": "unverified",
+        "summary": "Nowy link w skanerze 28.11; oficjalny artykuł datowany 27.11 opisuje funkcję «Nie mam drukarki». Brak godziny publikacji uniemożliwia ścisłe potwierdzenie ostatnich 24 godzin; nie dowodzi nowej usługi.",
+        "url": "https://www.epaka.pl/blog-kurierski/jak-nadac-paczke-bez-etykiety/"
+      },
+      {
+        "competitor": "Nova Post",
+        "category": "Promocje",
+        "title": "Black Friday FRIDAY25 — wcześniejsza oferta do 30.11",
+        "priority": "high",
+        "status": "historical_context",
+        "summary": "Rabat 25% widoczny na oficjalnej stronie, opisany już w poprzednich raportach. Nie jest nowym sygnałem z 28.11.",
+        "url": "https://novapost.com/pl-pl/black-friday-2026/"
+      }
+    ],
+    "limitations": [
+      "Publikacja epaka.pl jest datowana 27.11 bez godziny; nie można potwierdzić ruchomego okna 27.11 09:54–28.11 09:54 czasu polskiego.",
+      "Skaner wykrywa nowe linki, a nie wszystkie zmiany treści istniejących stron, social mediów czy cenników.",
+      "Meta Ads Library: HTTP 403; Google Ads Transparency Center: brak szczegółowych wyników reklamodawców; Google Trends: HTTP 429. Niezweryfikowano emisji płatnej reklamy.",
+      "Nie wprowadzono nowych pozycji do katalogu kampanii: brak zweryfikowanej nowej kampanii lub zmiany oferty."
+    ]
   }
 ]
