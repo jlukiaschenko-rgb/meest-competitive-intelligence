@@ -119,5 +119,16 @@
     "recommendation": "Sprawdź źródło i oceń znaczenie dla Meest Post.",
     "url": "https://furgonetka.pl/blog/listopadowy-przeglad-zmian",
     "detected_at": "2026-11-26T07:23:08+00:00"
+  },
+  {
+    "id": "d2c7d2c888480d77",
+    "competitor": "epaka.pl",
+    "category": "Blog",
+    "priority": "medium",
+    "title": "Continued",
+    "summary": "Nowy link wykryty na monitorowanej stronie. Wymaga weryfikacji treści oraz daty publikacji.",
+    "recommendation": "Sprawdź źródło i oceń znaczenie dla Meest Post.",
+    "url": "https://www.epaka.pl/blog-kurierski/jak-nadac-paczke-bez-etykiety",
+    "detected_at": "2026-11-28T07:17:14+00:00"
   }
 ]
